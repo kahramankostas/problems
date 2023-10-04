@@ -4,17 +4,16 @@
 ### Windows:  type input.txt  | python solution.py
 
 
-```
+
 Time limit: 15 seconds for each test case
-```
-```
+
 Space limit: 512 MB for each test case
-```
+
 **Context:**
 
-```
+
 An optical network can be simply considered as a connected undirected graph consisting of N nodes and
-```
+
 M edges with certain lengths. There may be multiple edges with different lengths between two adjacent nodes.
 
 
@@ -47,9 +46,9 @@ can use different channels on one edge, but cannot share the same channel on the
 ![Datasets](./img/4.jpg)
 <p style="text-align: center;">Figure 4 Optical services A and B both pass through edge 0 − 1 and use different channels.</p>
 
-```
+
 The initial signal strength of each service is the same, and the signal strength attenuates as the distance
-```
+
 increases. When a service travels a distance that is greater than the maximum attenuation distance (D km)
 (we assume that the length of any edge is shorter than or equal to D km), its signal strength is attenuated
 
@@ -67,7 +66,7 @@ one service, and multiple amplifiers can be installed on each node to amplify mu
 ![Datasets](./img/5.jpg)
 <p style="text-align: center;">Figure 5 Given D = 6 , there are 2 solutions for adding amplifiers on the path of optical service A.</p>
 
-```
+
 
 ![Datasets](./img/6.jpg)
 <p style="text-align: center;">Figure 6: Given D = 6, service B uses 2 amplifiers. There are 2 amplifiers on node 1.</p>
