@@ -18,7 +18,7 @@ An optical network can be simply considered as a connected undirected graph cons
 M edges with certain lengths. There may be multiple edges with different lengths between two adjacent nodes.
 
 
-![Datasets](./imgs/1.jpg)
+![Datasets](./img/1.jpg)
 <p style="text-align: center;">Figure 1 Optical network with 7 nodes and 10 edges
 (All figures in this contest are based on this example.).</p>
 
@@ -28,7 +28,7 @@ Each edge is split into P channels, which are distinguished by channel IDs 0 to 
 
 
 
-![Datasets](./imgs/2.jpg)
+![Datasets](./img/2.jpg)
 <p style="text-align: center;">Figure 2 Each edge split into P channels</p>
 
 
@@ -40,11 +40,11 @@ edge of the path, and the channel IDs for the same service must be the same on a
 can use different channels on one edge, but cannot share the same channel on the same edge.
 
 
-![Datasets](./imgs/3.jpg)
+![Datasets](./img/3.jpg)
 <p style="text-align: center;">Figure 3 : For optical service A, the path is 0 - >1->3->6 and the channel ID is 0.</p>
 
 
-![Datasets](./imgs/4.jpg)
+![Datasets](./img/4.jpg)
 <p style="text-align: center;">Figure 4 Optical services A and B both pass through edge 0 − 1 and use different channels.</p>
 
 ```
@@ -64,12 +64,12 @@ multiple sub-paths whose lengths are shorter than or equal to D km. One signal a
 one service, and multiple amplifiers can be installed on each node to amplify multiple services.
 
 
-![Datasets](./imgs/5.jpg)
+![Datasets](./img/5.jpg)
 <p style="text-align: center;">Figure 5 Given D = 6 , there are 2 solutions for adding amplifiers on the path of optical service A.</p>
 
 ```
 
-![Datasets](./imgs/6.jpg)
+![Datasets](./img/6.jpg)
 <p style="text-align: center;">Figure 6: Given D = 6, service B uses 2 amplifiers. There are 2 amplifiers on node 1.</p>
 
 
